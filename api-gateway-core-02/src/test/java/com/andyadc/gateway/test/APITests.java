@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Tests {
+public class APITests {
 
-    private final Logger logger = LoggerFactory.getLogger(Tests.class);
+    private final Logger logger = LoggerFactory.getLogger(APITests.class);
 
     @Test
     public void test_02() throws Exception {
