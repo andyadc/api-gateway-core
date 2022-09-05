@@ -11,6 +11,9 @@ import org.apache.dubbo.rpc.service.GenericService;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 会话生命周期配置项
+ */
 public class Configuration {
 
     private final MapperRegistry mapperRegistry = new MapperRegistry(this);
