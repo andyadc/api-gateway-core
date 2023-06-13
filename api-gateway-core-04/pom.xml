@@ -17,7 +17,7 @@
         <spring.version>5.3.27</spring.version>
         <netty.version>4.1.91.Final</netty.version>
         <dubbo.version>2.7.23</dubbo.version>
-        <fastjson.version>2.0.32</fastjson.version>
+        <fastjson.version>2.0.33</fastjson.version>
         <junit.version>5.9.3</junit.version>
 
         <maven.compiler.source>8</maven.compiler.source>
