@@ -24,6 +24,7 @@ public class GenericReferenceRegistry {
 
     // 泛化调用静态代理工厂
     private final Map<String, GenericReferenceProxyFactory> knownGenericReferences = new HashMap<>();
+
     public IGenericReference getGenericReference(String methodName) {
         GenericReferenceProxyFactory genericReferenceProxyFactory = knownGenericReferences.get(methodName);
         if (genericReferenceProxyFactory == null) {

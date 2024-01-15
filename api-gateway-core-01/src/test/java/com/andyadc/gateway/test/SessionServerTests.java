@@ -9,12 +9,12 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Tests {
+public class SessionServerTests {
 
-    private final Logger logger = LoggerFactory.getLogger(Tests.class);
+    private final Logger logger = LoggerFactory.getLogger(SessionServerTests.class);
 
     @Test
-    public void test_01() throws Exception {
+    public void testSessionServer() throws Exception {
         SessionServer server = new SessionServer();
 
         Future<Channel> future = Executors.newFixedThreadPool(2).submit(server);
